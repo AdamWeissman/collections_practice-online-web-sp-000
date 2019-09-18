@@ -44,3 +44,7 @@ def find_a(an_array)
   end
   return words_that_start_with_a
 end
+
+def sum_array(an_array)
+  return an_array.sum
+end
