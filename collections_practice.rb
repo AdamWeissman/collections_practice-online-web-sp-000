@@ -48,3 +48,9 @@ end
 def sum_array(an_array)
   return an_array.sum
 end
+
+def add_s(an_array)
+  x = an_array[1]
+  an_array.delete[1]
+  
+end
