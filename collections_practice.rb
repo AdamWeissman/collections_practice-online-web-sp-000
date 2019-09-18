@@ -30,6 +30,6 @@ def kesha_maker(make_kesha)
 end
 
 def find_a(starts_with)
-  return starts_with.scan(/^[a]/)
+  return 
 end
     
