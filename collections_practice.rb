@@ -39,8 +39,7 @@ def find_a(an_array)
       counter += 1 
     else
       counter += 1
-      next
     end
   end
+  return words_that_start_with_a
 end
-    
