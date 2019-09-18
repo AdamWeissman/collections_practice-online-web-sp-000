@@ -20,7 +20,7 @@ end
 
 def kesha_maker(make_kesha)
   kesha_words = []
-  make_ridiculous.each do |word|
+  make_kesha.each do |word|
     word[2] = "$"
     kesha_words << word
     return kesha_words
