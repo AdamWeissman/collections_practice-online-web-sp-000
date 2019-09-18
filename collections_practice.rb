@@ -33,12 +33,13 @@ def find_a(an_array)
   words_that_start_with_a = []
   counter = 0
   while counter < an_array.length
-  an_array.each do |word|
-    if word.start_with("a")
-      words_that_start_with_a << word
-      counter += 1 
-    else
-      counter += 1
+    an_array.each do |word|
+      if word.start_with("a")
+       words_that_start_with_a << word
+        counter += 1 
+      else
+        counter += 1
+      end
     end
   end
   return words_that_start_with_a
