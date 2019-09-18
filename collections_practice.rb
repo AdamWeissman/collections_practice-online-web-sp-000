@@ -21,7 +21,9 @@ end
 def kesha_maker(make_kesha)
   kesha_words = []
   make_ridiculous.each do |word|
-    word = word.to_a
     word[2] = "$"
-    word.join!
+    kesha_words << word
+    return kesha_words
+  end
+end
     
