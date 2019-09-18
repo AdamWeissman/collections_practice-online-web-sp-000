@@ -20,10 +20,12 @@ end
 
 def kesha_maker(make_kesha)
   kesha_words = []
-  make_kesha.each do |word|
-    word[2] = "$"
-    kesha_words << word
-    return kesha_words
-  end
+  while kesha_words.size != make_kesha.size
+    make_kesha.each do |word|
+      word[2] = "$"
+      kesha_words << word
+      return kesha_words
+   end
+ end
 end
     
