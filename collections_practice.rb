@@ -15,6 +15,6 @@ def swap_elements(a_bunch_of_elements)
 end
 
 def reverse_array(an_array_of_ints)
-  return sort_array_desc(an_array_of_ints)
+  return an_array_of_ints.reverse
 end
   
