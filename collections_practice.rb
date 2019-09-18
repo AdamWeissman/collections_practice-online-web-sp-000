@@ -51,7 +51,7 @@ end
 
 def add_s(an_array)
   x = an_array[1]
-  an_array.delete_at[1]
+  an_array.delete_at(1)
   an_array.collect do |word|
     word+"s"
   end
