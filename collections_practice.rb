@@ -13,3 +13,8 @@ end
 def swap_elements(a_bunch_of_elements)
   return a_bunch_of_elements.values_at(0,2,1)
 end
+
+def reverse_array(an_array_of_ints)
+  return sort_array_desc(an_array_of_ints)
+end
+  
