@@ -11,5 +11,6 @@ def sort_array_char_count(string_array)
 end
 
 def swap_elements(a_bunch_of_elements)
-  return a_bunch_of_elements
+  a_bunch_of_elements2[0,1,2] = a_bunch_of_elements
+  a
 end
