@@ -11,5 +11,5 @@ def sort_array_char_count(string_array)
 end
 
 def swap_elements(a_bunch_of_elements)
-  return a_bunch_of_elements.values_at(0,2,1)!
+  return a_bunch_of_elements.values_at(0,2,1)
 end
