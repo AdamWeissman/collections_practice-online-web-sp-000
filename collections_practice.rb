@@ -17,4 +17,11 @@ end
 def reverse_array(an_array_of_ints)
   return an_array_of_ints.reverse
 end
-  
+
+def kesha_maker(make_kesha)
+  kesha_words = []
+  make_ridiculous.each do |word|
+    word = word.to_a
+    word[2] = "$"
+    word.join!
+    
