@@ -28,4 +28,7 @@ def kesha_maker(make_kesha)
    return kesha_words
  end
 end
+
+def find_a(starts_with)
+  return 
     
